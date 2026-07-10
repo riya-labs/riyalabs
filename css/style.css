@@ -303,22 +303,13 @@ img { max-width: 100%; display: block; }
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   font-weight: 500;
   color: var(--accent-dark);
-  background: #fff;
-  border: 1px solid var(--accent);
-  padding: 10px 22px;
+  background: var(--accent-light);
+  padding: 9px 20px;
   border-radius: 999px;
   margin-bottom: 36px;
-  box-shadow: var(--shadow-s);
-}
-.hero-badge-dot {
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: var(--accent);
-  flex: none;
 }
 .hero-actions {
   display: flex;
@@ -1032,6 +1023,7 @@ img { max-width: 100%; display: block; }
   .section { padding: 84px 0; }
   .hero { padding: 148px 0 76px; }
   .voice-cards { flex-direction: column; }
+  .voice { flex-basis: auto; }
   .options-box, .info-box, .panel { padding: 28px 22px; }
   .feature-card { padding: 32px 24px; }
   .price-card { padding: 36px 26px; }
