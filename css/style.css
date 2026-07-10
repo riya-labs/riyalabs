@@ -1023,7 +1023,7 @@ img { max-width: 100%; display: block; }
   .section { padding: 84px 0; }
   .hero { padding: 148px 0 76px; }
   .voice-cards { flex-direction: column; }
-  .voice { flex-basis: auto; }
+  .voice { flex: 0 1 auto; }
   .options-box, .info-box, .panel { padding: 28px 22px; }
   .feature-card { padding: 32px 24px; }
   .price-card { padding: 36px 26px; }
